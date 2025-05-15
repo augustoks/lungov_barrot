@@ -1,7 +1,7 @@
 import React from 'react';
 import { Scale, Home, Gavel, UserCheck, Shield, Users, Briefcase, Building } from 'lucide-react';
-import img1 from "../resources/img1.jpeg";
-import img2 from "../resources/img2.jpeg";
+import img1 from "../resources/img1.png";
+import img2 from "../resources/img2.png";
 
 interface ServiceCardProps {
   icon: React.ReactNode;
@@ -120,7 +120,7 @@ const Services: React.FC = () => {
         graduationYear: "1993"
       },
       credentials: [
-        "Membro do Instituto Brasileiro de Direito de Família (IBDFAM)",
+        "Membro do Instituto Brasileiro de Direito de Família (IBDFAM) e sucessões.",
         "Especialista em direito do consumidor pela ESA"
       ],
       description: "Com vasta experiência em Direito do Consumidor e Direito de Família, Carla Lungov combina expertise técnica com uma abordagem humanizada. Sua atuação é marcada pelo compromisso com a excelência e dedicação aos interesses de seus clientes.",
@@ -131,13 +131,13 @@ const Services: React.FC = () => {
       title: "Sócio Fundador",
       oab: "OAB/SP: 94.149",
       education: {
+        institution: "Faculdade de Direito de São Bernardo do Campo",
         graduationYear: "1988"
       },
       credentials: [
-        "Especialista em Direito Criminal",
-        "Mais de 30 anos de experiência em advocacia criminal"
+        "Especialista em direito Trabalhista e Empresarial.",
       ],
-      description: "Alexandre Barrot é reconhecido por sua expertise em Direito Criminal, com uma carreira consolidada na defesa dos interesses de seus clientes. Sua abordagem estratégica e conhecimento aprofundado do sistema judicial garantem uma representação legal de excelência.",
+      description: "Alexandre Barrot é reconhecido por sua expertise em Trabalhista e Empresarial, com uma carreira consolidada na defesa dos interesses de seus clientes. Sua abordagem estratégica e conhecimento aprofundado do sistema judicial garantem uma representação legal de excelência.",
       imgProfile: img2
     }
   ];
