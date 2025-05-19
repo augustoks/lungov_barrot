@@ -5,6 +5,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -26,13 +27,14 @@ const App: React.FC = () => {
 
   return (
     <div className="font-sans antialiased">
-      <Navbar />
-      <Hero />
-      <About />
-      <Services />
-      <Contact />
-      <Footer />
-    </div>
+          <Navbar />
+          <Hero />
+          <About />
+          <Services />
+          <Contact />
+          <Footer />
+          <SpeedInsights/>
+        </div>
   );
 };
 
